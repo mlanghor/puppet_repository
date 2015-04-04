@@ -10,3 +10,7 @@ mod "puppetlabs/ntp"
 mod "zack/r10k"
 mod "saz/resolv_conf"
 mod "puppetlabs/vcsrepo"
+
+mod "nagios_testing",
+  :git => "git@github.com:mlanghor/nagios_testing.git",
+  :ref => "testing"
