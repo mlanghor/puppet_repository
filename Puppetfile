@@ -12,6 +12,9 @@ mod "saz/resolv_conf"
 mod "puppetlabs/vcsrepo"
 mod "gentoo/portage"
 
+mod "nagios_testing",
+  :git => "git@github.com:mlanghor/nagios_testing.git",
+  :ref => "development"
 #mod "audit",
 #  :git => "git://github.com/cvquesty/audit.git",
 #  :ref => 'development'
