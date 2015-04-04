@@ -12,5 +12,5 @@ mod "saz/resolv_conf"
 mod "puppetlabs/vcsrepo"
 
 mod "nagios_testing",
-  :git => "git@github.com:mlanghor/nagios_testing.git",
+  :git => "git://github.com/mlanghor/nagios_testing.git",
   :ref => "master"
